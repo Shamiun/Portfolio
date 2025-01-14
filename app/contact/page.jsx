@@ -5,7 +5,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 import { motion } from "framer-motion";
-import { useState } from "react";
+import { useState, useRef } from "react";
 
 import {
   Select,
@@ -46,15 +46,16 @@ const Contact = () => {
   const [error, setError] = useState([]);
   const [success, setSuccess] = useState(false);
 
+  // const selectRef = useRef(null);
+ 
+
   const handleSubmit = async (e) => {
     e.preventDefault();
+    
 
-    // console.log("firstname:", firstname)
-    // console.log("lastname:", lastname)
-    // console.log("email:", email)
-    // console.log("phone:", phone)
-    // console.log("message:", message)
+    // const selectedValue = SelectItem.value;
     console.log("service:", service)
+
 
     const res = await fetch("api/contact", {
       method: "POST",
@@ -134,15 +135,16 @@ const Contact = () => {
               </div>
 
               {/* select */}
+              {/* onChange={(e) => ( value=> setService(value))} */}
 
-              <Select>
+              <Select >
                 <SelectTrigger className="w-full ">
                   <SelectValue placeholder="Select a service" />
                 </SelectTrigger>
                 <SelectContent>
                   <SelectGroup>
                     <SelectLabel>Select a service</SelectLabel>
-                    <SelectItem  value="Full Stack Web App Development"> 
+                    <SelectItem  value="1" > 
                       Full Stack Web App Development
                     </SelectItem>
                     <SelectItem value="Frontend Development">

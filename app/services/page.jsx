@@ -9,25 +9,25 @@ const services = [
   {
     num: "01",
     title: "Full Stack Web App Development",
-    description: "I Develop and execute SEO strategies that improve organic search results and visibility for key product pages by over 50%. Conducted in-depth competitor analysis to inform content creation,resulting in a 35% increase in market share.",
+    description: "As a full-stack web developer I'm expert in creating high-quality, custom web applications. I handle front-end (user interface) and back-end (server-side logic) development, ensuring seamless and efficient solutions for your business needs.",
     href: ""
   },
   {
     num: "02",
     title: "Frontend Development",
-    description: "I Conducted a comprehensive audit of Synergy Radiology's website, improved its usability and performance. Identified key areas forimprovement in technical issues, on page optimization andproviding actionable recommendations to enhance overall siteeffectiveness and client engagement.",
+    description: "I craft visually stunning and user-friendly websites that attract your audience and drive conversions. I specialize in clean, modern design and intuitive user interfaces that make your brand stand out. My expertise includes Next.js + React.js, Tailwind css and many other frontend libraries. Let's build a website that not only looks amazing but also delivers an exceptional user experience.",
     href: ""
   },
   {
     num: "03",
     title: "Backend Development",
-    description: "I am a Experienced freelance SEO specialist with a proven record of improving websites visibility and search engine rankings. Successfully drive organic traffic growth and enhance userengagement for clients across various industries.",
+    description: "As a backend web developer, I specialize in building scalable server-side applications. I have experties in Node.js and express.js. I'm proficient in implementing RESTful APIs, working with databases (SQL and NoSQL). I can help you build a solid foundation for your web application ",
     href: ""
   },
   {
     num: "04",
     title: "Full Website SEO",
-    description: "I am a Experienced freelance SEO specialist with a proven record of improving websites visibility and search engine rankings. Successfully drive organic traffic growth and enhance userengagement for clients across various industries.",
+    description: "I am a Experienced freelance SEO specialist with a proven record of improving websites visibility and search engine rankings. Successfully drive organic traffic growth and enhance userengagement for clients across various industries. Let's work together to scale your business.",
     href: ""
   },
 
