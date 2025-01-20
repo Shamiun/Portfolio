@@ -7,8 +7,11 @@ import StairTransition from "@/components/StairTransition";
 const jetbrainsMono = JetBrains_Mono({subsets:["latin"], weight: ["100","200","300","400","500","600","700","800"],variable:'---font-jetbrainsMono'})
 
 export const metadata = {
-  title: "Shamiun Shadid",
-  description: "Shamiun Shadid a fullstack SEO expert",
+  title: {
+    default: "Shamiun Shadid",
+    template: "%s - Shamiun Shadid" 
+  },
+  description: "I'm Shamiun Shadid a fullstack web developer with 5 years of experience",
 };
 
 export default function RootLayout({ children }) {

@@ -17,6 +17,10 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 
+// export const metadata = {
+//   title: "Contact - Shamiun Shadid"
+// }
+
 const info = [
   {
     icon: <FaPhoneAlt />,
@@ -46,7 +50,12 @@ const Contact = () => {
   const [error, setError] = useState([]);
   const [success, setSuccess] = useState(false);
 
+  
   // const selectRef = useRef(null);
+  const handleServiceChange = (value) => {
+    setService(value);
+    // console.log('Selected Service:', value);
+  };
  
 
   const handleSubmit = async (e) => {
@@ -103,8 +112,7 @@ const Contact = () => {
             <form className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl ">
               <h3 className="text-4xl text-accent">Let's work together</h3>
               <p className="text-white/60 ">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem
-                saepe quibusdam aspernatur quod minima.
+              Ready to collaborate? I'm curious to hear about your project ideas. Please fill out the contact form below to get in touch.
               </p>
               {/* input */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 ">
@@ -137,14 +145,14 @@ const Contact = () => {
               {/* select */}
               {/* onChange={(e) => ( value=> setService(value))} */}
 
-              <Select >
+              <Select onValueChange={handleServiceChange}>
                 <SelectTrigger className="w-full ">
                   <SelectValue placeholder="Select a service" />
                 </SelectTrigger>
                 <SelectContent>
                   <SelectGroup>
                     <SelectLabel>Select a service</SelectLabel>
-                    <SelectItem  value="1" > 
+                    <SelectItem  value="Full Stack Web Development" > 
                       Full Stack Web App Development
                     </SelectItem>
                     <SelectItem value="Frontend Development">

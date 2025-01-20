@@ -55,25 +55,25 @@ const about = {
 const experience = {
   //icon:
   title: "My experience",
-  description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione esse accusamus molestiae illum! Autem voluptas hic earum",
+  description: "Here are the experience that I gained in the last five years of my ciding journy. It's very pleasure for me to share with you.",
   items: [
     {
-      company:"HerFinland",
+      company:"Syntactics Inc.",
       position:"Full Stack Web Developer",
       duration: "2024 - Present"
     },
     {
-      company:"Synergy Radiology",
+      company:"Freelancing",
       position:"Frontend Developer",
       duration: "2022 - 2024"
     },
     {
-      company:"Synergy Radiology",
+      company:"webdew",
       position:"Backend Developer",
       duration: "2023 - 2024"
     },
     {
-      company:"Synergy Radiology",
+      company:"Web Help Agency",
       position:"Frontend Assistant",
       duration: "2022 - 2023"
     },
@@ -94,10 +94,10 @@ const experience = {
 const education = {
   //icon: 
   title: "My education",
-  description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione esse accusamus molestiae illum! Autem voluptas hic earum",
+  description: "Explore my educational foundation. Learn more about my achievements and areas of expertise below.",
   items: [
     {
-      institution:"Online Course Platform",
+      institution:"Sigma Web Dev Course",
       degree:"Full Stack Web Development Bootcamp",
       duration: "2022-2023"
     },
@@ -105,6 +105,16 @@ const education = {
       institution:"Online Course Platform",
       degree:"Frontend Development Bootcamp",
       duration: "2022-2023"
+    },
+    {
+      institution:"Online Course Platform",
+      degree:"Backend Development",
+      duration: "2022-2024"
+    },
+    {
+      institution:"Online Course Platform",
+      degree:"Full Figma Basics",
+      duration: "2023-2023"
     },
     {
       institution:"Online Course Platform",
@@ -133,7 +143,7 @@ const education = {
 //skill data 
 const skill = {
   title: "My skills",
-  description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione esse accusamus molestiae illum! Autem voluptas hic earum",
+  description: "I am proficient in a range of in-demand web development skills. See a detailed overview of my expertise below.",
   
   skillList: [
     { icon: <FaHtml5/>,

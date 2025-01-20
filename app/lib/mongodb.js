@@ -12,6 +12,5 @@ const connectDB = async () => {
     }
     
 }
-// 30:12
 
 export default connectDB

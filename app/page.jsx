@@ -11,12 +11,12 @@ import {FiDownload} from 'react-icons/fi'
 const Home = () => {
 
   const handleClick = async () => {
-    const response = await fetch('/assets/Shadid-Resume.pdf');
+    const response = await fetch('/assets/Resume-Shadid.pdf');
     const blob = await response.blob();
     const url = window.URL.createObjectURL(blob);
     const link = document.createElement('a');
     link.href = url;
-    link.download = 'Shadid-Resume.pdf';
+    link.download = 'Resume-Shadid.pdf';
     link.click();
     window.URL.revokeObjectURL(url);
   };
@@ -29,7 +29,7 @@ const Home = () => {
         <div className="text-center xl:text-left order-2 xl:order-none">
           <span className="text-xl">Full Stack Website Developer</span>
           <h1 className="h1 mb-6">Hello I'm <br /><span className="text-accent">Shamiun Shadid</span></h1>
-          <p className="mx-w-[500px] mb-9 text-white/80">A a full stack web developer. I design and develop effective web applications.  My expertise lies in both front-end and back-end development, allowing me to deliver comprehensive solutions. Let's build something amazing together!</p>
+          <p className="mx-w-[500px] mb-9 text-white/80">I design and develop effective web applications.  My expertise lies in both front-end and back end development, allowing me to deliver comprehensive solutions. Let's build something amazing together!</p>
 
           <div className="flex flex-col xl:flex-row items-center gap-8 ">
 

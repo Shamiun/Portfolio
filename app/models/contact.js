@@ -23,8 +23,8 @@ const contactSchema = new Schema({
 
     },
     service:{
-        required:[true, 'Service is required'],
-        type: [String]
+        type: Array,
+        required:[true, 'Service is required']
     },
     message:{
         type: String,

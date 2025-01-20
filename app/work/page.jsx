@@ -17,11 +17,12 @@ const projects =[
     num: '01',
     catagory: 'Full-Stack Plant Selling Website',
     title: 'project 1',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae iusto laudantium voluptatum voluptates qui. Maxime',
+    description: 'Successfully completed a full-stack project leveraging the power of Next.js, Tailwind CSS, Node.js and MongoDb. It is a plant selling E-commerce store.',
     stack: [
       {name: 'Next.js'},
       {name: 'Tailwind.css'},
       {name: 'Node.js'},
+      {name: 'MongoDb'},
     ],
     // image size 585 x 460
     image: '/assets/work/Project1.jpg',
@@ -32,11 +33,12 @@ const projects =[
     num: '02',
     catagory: 'Full-Stack Ecommerce Website',
     title: 'project 2',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae iusto laudantium voluptatum voluptates qui. Maxime',
+    description: 'Developed a full-stack application using Next.js for frontend, Tailwind CSS for styling, Node.js for backend and MongoDb for database. Demonstrating proficiency in modern web development technologies.',
     stack: [
       {name: 'Next.js'},
       {name: 'Tailwind.css'},
       {name: 'Node.js'},
+      {name: 'MongoDb'},
     ],
     image: '/assets/work/Project2.jpg',
     live: '',
@@ -46,7 +48,7 @@ const projects =[
     num: '03',
     catagory: 'frontend',
     title: 'project 3',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae iusto laudantium voluptatum voluptates qui. Maxime',
+    description: 'I designed and developed a user-friendly frontend application using Next.js for a robust and performant user experience. Utilized Tailwind CSS for rapid and efficient styling.',
     stack: [
       {name: 'Next.js'},
       {name: 'Tailwind.css'},
