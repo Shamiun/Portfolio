@@ -56,3 +56,5 @@ const Home = () => {
 }
 
 export default Home
+
+//"react": "19.0.0-rc-66855b96-20241106",
