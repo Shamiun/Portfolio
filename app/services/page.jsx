@@ -63,3 +63,8 @@ const Services = () => {
 }
 
 export default Services
+
+export const metadata = {
+  title: "Services - Shamiun Shadid",
+  description: "Here is the service that shamiun shadid is providing. "
+}

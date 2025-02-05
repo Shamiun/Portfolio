@@ -171,3 +171,8 @@ const handleSlideChange = (Swiper) =>{
 }
 
 export default Work
+
+export const metadata = {
+  title: "Work - Shamiun Shadid",
+  description: "Here all the work of shamiun shadid"
+}

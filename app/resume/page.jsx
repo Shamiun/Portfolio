@@ -299,3 +299,8 @@ const Resume = () => {
 }
 
 export default Resume
+
+export const metadata = {
+  title: "Resume - Shamiun Shadid",
+  description: "Here is the resume of shamiun shadid. "
+}

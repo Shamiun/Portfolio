@@ -228,3 +228,8 @@ const Contact = () => {
 };
 
 export default Contact;
+
+export const metadata = {
+  title: "Contact - Shamiun Shadid",
+  description: "Contact with shamiun shadid any time."
+}
